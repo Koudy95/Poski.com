@@ -1,0 +1,24 @@
+.navbar {
+  background-color: transparent;
+
+  &__img {
+    max-width: 184px;
+  }
+
+  &__ico {
+    max-width: 37px;
+    height: 32px;
+    color: white;
+  }
+
+  &__collapse {
+    img {
+      max-width: 24px;
+      margin-right: 20px;
+    }
+  }
+
+  .collapsing {
+    display: none;
+  }
+}

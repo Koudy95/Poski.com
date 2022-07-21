@@ -1,0 +1,20 @@
+.text-opacity {
+  color: white;
+  opacity: 64%;
+}
+
+.small {
+  font-size: 0.875rem  /* 14/16 */;
+}
+
+.d-xxl-block {
+  @media (min-width: 1700px) {
+    display: block !important;
+  }
+}
+
+.container {
+  @media (min-width: 1440px) {
+    max-width: 1440px !important;
+  }
+}

@@ -1,0 +1,16 @@
+.left-panel {
+  width: 24px;
+  height: 152px;
+  position: sticky;
+  margin-top: 20px;
+  margin-left: -130px;
+  top: 10%;
+  left: 80px;
+  float: left;
+  z-index: 9;
+  display: none;
+
+  &__img {
+    margin-bottom: 10px;
+  }
+}
